@@ -6,7 +6,6 @@ import Logo from "./dojo-logo.png";
 export default function Navbar() {
   return (
     <nav>
-      <Image />
       <Image
         src={Logo}
         alt="Dojo Helpdesc logo"
@@ -14,6 +13,8 @@ export default function Navbar() {
         quality={100}
         placeholder="blur"
       />
+      <h2>Ervin Kacar</h2>
+
       <Link href="/">Dashboard</Link>
       <Link href="/tickets">Tickets</Link>
     </nav>
